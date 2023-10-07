@@ -1,7 +1,3 @@
-# pt-48-Loveradrian-FibonacciGenerator
-
-Funcion para representar la sucesion de Fibonacci: 
-
 const fib = (n, numFibInicio = [0, 1]) => {
     if (n <= numFibInicio.length) {
       return numFibInicio;
